@@ -21,7 +21,7 @@ namespace Laba1
         public override void PrintInfo()
         {
             base.PrintInfo();
-            Console.WriteLine($"BatteryCapacity: {GetBatteryCapacity() + " mAh "}");
+            Console.WriteLine($"BatteryCapacity: {GetBatteryCapacity() + " mAh"}");
         }
 
         public void SetBatteryCapacity(int batteryCapacity) { this.batteryCapacity = batteryCapacity; }

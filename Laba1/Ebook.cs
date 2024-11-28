@@ -21,7 +21,7 @@ namespace Laba1
         public override void PrintInfo()
         {
             base.PrintInfo();
-            Console.WriteLine($"ScreenSize: {GetScreenSize() + " дюйм "}");
+            Console.WriteLine($"ScreenSize: {GetScreenSize() + " дюйм"}");
         }
 
         public void SetScreenSize(float screenSize) { this.screenSize = screenSize; }
